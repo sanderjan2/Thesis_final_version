@@ -1,0 +1,41 @@
+k_values: [2, 3, 4, 5, 7, 9, 11, 13, 15, 18, 21, 24, 27, 30]
+iterations: 50
+input_file: "data_sets/car_data_micro.csv"
+class_name: "micro_agg"
+type: "micro"
+method: "Microaggregation"
+data_set: "car"
+eps_pkg: .35
+# eps_pkg: .23
+eps_dram: .04
+misc_results: "N"
+
+# Note: At least class needs to be assigned NaN, why? No idea.
+hierarchy:
+  buying: "Quasi_identifying"
+  maintenance: "Quasi_identifying"
+  doors: "Quasi_identifying"
+  persons: "Quasi_identifying"
+  luggage_boot: "Quasi_identifying"
+  safety: "Quasi_identifying"
+  class: "Insensitive"
+
+types:
+  buying: "Decimal"
+  maintenance: "Decimal"
+  doors: "Decimal"
+  persons: "Decimal"
+  luggage_boot: "Decimal"
+  safety: "NaN"
+  class: "NaN"
+
+micro_function:
+  buying: "arithmic_mean"
+  maintenance: "arithmic_mean"
+  doors: "arithmic_mean"
+  persons: "arithmic_mean"
+  luggage_boot: "arithmic_mean"
+  safety: "arithmic_mean"
+  class: "NaN"
+
+suppression_limit: 0.2

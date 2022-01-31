@@ -1,0 +1,14 @@
+Age,Quasi_identifying,Decimal,arithmic_mean
+workclass,Quasi_identifying,Decimal,arithmic_mean
+fnlwgt,Quasi_identifying,Decimal,arithmic_mean
+education_num,Quasi_identifying,Decimal,arithmic_mean
+marital_status,Quasi_identifying,Decimal,arithmic_mean
+occupation,Quasi_identifying,Decimal,arithmic_mean
+relationship,Quasi_identifying,Decimal,arithmic_mean
+race,Quasi_identifying,Decimal,arithmic_mean
+sex,Quasi_identifying,NaN,arithmic_mean
+capital_gain,Quasi_identifying,Decimal,arithmic_mean
+capital_loss,Quasi_identifying,Decimal,arithmic_mean
+hours_per_week,Quasi_identifying,Decimal,arithmic_mean
+native_country,Quasi_identifying,Decimal,arithmic_mean
+class,Insensitive,NaN,NaN

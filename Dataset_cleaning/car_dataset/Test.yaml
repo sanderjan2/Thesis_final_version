@@ -1,0 +1,13 @@
+k_values: [2, 3, 4, 5, 7, 9, 11, 13, 15, 18, 21, 24, 27, 30]
+
+input_start: "car.csv"
+
+method: "micro"
+
+learning_rate: 0.1
+
+nearest_neighbors: 5
+
+dataset: "car"
+
+target: "class"

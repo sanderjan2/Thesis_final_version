@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "libarx-3.9.0.jar",
+        "Libaries/libarx-3.9.0.jar",
+        "libraries/libarx-3.9.0.jar",
+        "libraries/jRAPL-1.0.jar",
+        "libraries/j-joules-1.0-SNAPSHOT.jar"
+    ],
+    "java.project.sourcePaths": [
+        ""
+    ]
+}

@@ -1,0 +1,22 @@
+k_values: [2, 3, 4, 5, 7, 9, 11, 13, 15, 18, 21, 24, 27, 30]
+# k_values: [2, 5, 7]
+iterations: 50
+input_file: "data_sets/car.csv"
+class_name: "k_ano"
+type: "general"
+method: "Generalization and Suppression"
+data_set: "car"
+eps_pkg: .448
+eps_dram: .1
+misc_results: "N"
+
+hierarchy:
+  buying: "hierarchy/buy_main.csv"
+  maintenance: "hierarchy/buy_main.csv"
+  doors: "hierarchy/doors.csv"
+  persons: "hierarchy/persons.csv"
+  luggage_boot: "hierarchy/lug_boot.csv"
+  safety: "hierarchy/safety.csv"
+  class: "Insensitive"
+
+suppression_limit: 0.2

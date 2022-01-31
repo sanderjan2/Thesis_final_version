@@ -1,0 +1,14 @@
+k_values: [2, 3, 4, 5, 7, 9, 11, 13, 15, 18, 21, 24, 27, 30]
+input_file: "Microaggregation_car/"
+
+type: "general"
+method: "Microaggregation"
+data_set: "car"
+# Nearest neighbors needs this one
+# eps_pkg: 0.01
+# Logistic this one
+# eps_pkg: .2
+# And gradient this one
+eps_pkg: 1.15
+
+eps_dram: 20

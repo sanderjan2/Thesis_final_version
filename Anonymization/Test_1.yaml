@@ -1,0 +1,34 @@
+k_values: [2, 3, 4, 5, 7, 9, 11, 13, 15, 18, 21, 24, 27, 30]
+# k_values: [2, 5, 7]
+iterations: 50
+input_file: "data_sets/adult_clean2.csv"
+class_name: "k_ano"
+type: "general"
+method: "Generalization and Suppression"
+data_set: "adult"
+eps_pkg: 1.75
+eps_dram: .2
+misc_results: "N"
+misc_function: "Man"
+# time / pkg / dram
+man_function: "time"
+
+
+# Age,workclass,fnlwgt,education,education_num,marital_status,occupation,relationship,race,sex,capital_gain,capital_loss,hours_per_week,native_country,class
+hierarchy:
+  Age: "hierarchy/age.csv"
+  workclass: "hierarchy/workclass.csv"
+  fnlwgt: "hierarchy/fnlwgt.csv"
+  education_num: "hierarchy/education_num.csv"
+  marital_status: "hierarchy/marital_status.csv"
+  occupation: "hierarchy/occupation.csv"
+  relationship: "hierarchy/relationship.csv"
+  race: "hierarchy/race.csv"
+  sex: "hierarchy/sex.csv"
+  capital_gain: "hierarchy/capital_gain.csv"
+  capital_loss: "hierarchy/capital_loss.csv"
+  hours_per_week: "hierarchy/hours_per_week.csv"
+  native_country: "hierarchy/native_country.csv"
+  class: "Insensitive"
+suppression_limit: 0.2
+  
